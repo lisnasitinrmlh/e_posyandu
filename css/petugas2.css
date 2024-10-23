@@ -1,0 +1,14 @@
+ body{
+        background:url(img/Menu/bggg2.png);
+        background-repeat: repeat-y;
+        background-size: 100%;
+        overflow-y: hidden;
+            }
+
+div {
+        width: 320px;
+        height: 50px;
+        padding: 10px;
+        border: 5px solid gray;
+        margin: 0;
+            }
