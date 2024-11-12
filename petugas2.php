@@ -12,7 +12,7 @@ include 'header2.php'
         background:url(img/Menu/bggg2.png);
         background-repeat: repeat-y;
         background-size: 100%;
-        overflow-y: hidden;}
+        }
         .gallery {
             display: flex;
   justify-content: center;
@@ -64,7 +64,8 @@ div.desc {
       }
       .box{
         padding: 20px;
-        margin-bottom: 10px;
+        margin-bottom: 50px;
+        margin-top: 70px;
       }
       #content{
         position: relative;
@@ -81,31 +82,27 @@ div.desc {
     </style>
 </head>
 <body>
-    <div id="container align-self-center" class="bawahnav">
+    <div id="container align-self-center" class="">
         <div class="box">
             <div class="row justify-content-lg-center">
-               
-                <div class="col-md-3"><a href="petugas/data_imunisasi.php"><img src="img/Menu/dataimun.png" class="card-img" width="50%" /></a>
+
+                <div class="col-md-3"><a href="data_ibu.php"><img src="img/data_ibu.png" class="card-img" width="50%x"/></a>
                 </div>
 
-                <div class="col-md-3"><a href="petugas/data_balita.php"><img src="img/Menu/datavaksin.png" class="card-img" width="50%x"  /></a>
+                <div class="col-md-3"><a href="data_bayi.php"><img src="img/data_bayi.png" class="card-img" width="50%x"/></a>
                 </div>
 
-                <div class="col-md-3"><a href="petugas/data_program_kb.php"><img src="img/Menu/dataanak.png" class="card-img" width="50%" /></a>
+                <div class="col-md-3"><a href="data_balita.php"><img src="img/data_balita.png" class="card-img" width="50%x"/></a>
+                </div>
+
+                <div class="col-md-3"><a href="data_program_kb.php"><img src="img/program_kb.png" class="card-img" width="50%"/></a>
                 </div>
                 
-                <div class="col-md-3"><a href="petugas/data_balita.php"><img src="img/Menu/datavaksin.png" class="card-img" width="50%x"  /></a>
-                </div>
-
-                <div class="col-md-3"><a href="petugas/data_program_kb.php"><img src="img/Menu/dataanak.png" class="card-img" width="50%" /></a>
-                </div>
-
-                <div class="col-md-3"><a href="petugas/data_balita.php"><img src="img/Menu/datavaksin.png" class="card-img" width="50%x"  /></a>
-                </div>
-
-
             </div>
         </div>
     </div>
 </body>
 </html>
+<?php
+include 'footer.php'
+?>

@@ -60,7 +60,7 @@
             <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
               <a class="dropdown-item" href="petugas/profil.php">Profile</a>
               <a class="dropdown-item" href="petugas/absen.php">Absensi</a>
-              <a class="dropdown-item" href="dashboard.php">Logout</a>
+              <a class="dropdown-item" href="index.php">Logout</a>
              </div>
           </div> 
       </nav>

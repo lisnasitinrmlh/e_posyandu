@@ -6,21 +6,18 @@
   <title></title>
   <style type="text/css">
     p {
-      background: white;
       text-align: center;
+    }
+    .footer {
+      background: ;
     }
   </style>
 </head>
 <body>
   <footer class="">
-      <div class="">
-        <div class="">
-          <div class="">
-            <br><br><br>
+          <div class="footer">
             <p class=""><i>© 2024 Dibuat oleh Lisna Siti Nurmilah | Universitas Wanita Internasional</i></p>
           </div>
-        </div>
-      </div>
     </footer>
 </body>
 </html>

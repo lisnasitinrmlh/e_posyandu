@@ -11,12 +11,26 @@ include 'header.php'
         body{
         background:url(img/Menu/bggg2.png);
         background-repeat: repeat-y;
-        background-size: 100%;
-        overflow-y: hidden;}
+        background-size: 100%;}
+        .container {
+  position: relative;
+  text-align: center;
+  color: blue;
+}
+
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
     </style>
 </head>
 <body>
-<h1><center>Ini Halaman Dashboard/Beranda</center></h1>
+<div class="container">
+  <img src="img/1.jpg" alt="Snow" style="width:100%;">
+  <div class="centered"><h1> SELAMAT DATANG DI E POSYANDU</h1></div>
+</div>
 </body>
 </html>
 <?php

@@ -4,7 +4,7 @@
 $server = 'localhost';
 $user = 'root';
 $password = '';
-$nama_database = 'psb';
+$nama_database = 'eposyandu';
 
 // fungsi menghubungkan ke database
 $db = mysqli_connect($server, $user, $password, $nama_database);

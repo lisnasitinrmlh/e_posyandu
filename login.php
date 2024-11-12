@@ -18,7 +18,6 @@
         background:url(img/Menu/bggg2.png);
         background-repeat: repeat-y;
         background-size: 100%;
-        overflow-y: hidden;
         
       }
       #container{
